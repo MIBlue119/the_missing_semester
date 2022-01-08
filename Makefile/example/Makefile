@@ -14,3 +14,6 @@ install-nvidia-docker: ## Install the dependency of the nvidia-docker
 
 generate-onnx: ## Generate onnx format 
 	echo "Not implemented"
+
+lint: ## Executing linting 
+	echo "Not implemented"
