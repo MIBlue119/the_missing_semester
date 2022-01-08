@@ -6,6 +6,7 @@
 - [The missing semester](https://missing.csail.mit.edu/)
     - [the shell](https://missing.csail.mit.edu/2020/course-shell/)
     - [shell tools and scripts](https://missing.csail.mit.edu/2020/shell-tools/)
+- [unofficial-bash-strict-mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
 
 ## Tools
 ### Cheatsheet/Tutorial
