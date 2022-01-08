@@ -7,6 +7,7 @@
     - [the shell](https://missing.csail.mit.edu/2020/course-shell/)
     - [shell tools and scripts](https://missing.csail.mit.edu/2020/shell-tools/)
 - [unofficial-bash-strict-mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
+- [grep's regular expression](http://benjr.tw/97395)
 
 ## Tools
 ### Cheatsheet/Tutorial
@@ -25,6 +26,11 @@
     ```
     $man the_command_you_want_to_search
     ```
+    - Grep the specific patterns from the manaual results
+        - Example: If i want to find the options `-h` for command `sort`?
+        ```
+        $man sort | grep -e "-h"
+        ```
 ### Checker
 - [shellcheck](https://github.com/koalaman/shellcheck): A static alanysis tool for shell script 
     - How to install?
