@@ -1,4 +1,7 @@
 # the_missing_semester
+
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/MIBlue119/the_missing_semester)
+
 Inspired by the [`the missing semester class`](https://missing.csail.mit.edu/) 
 The things listed below are something that are important for a software engineer
 
