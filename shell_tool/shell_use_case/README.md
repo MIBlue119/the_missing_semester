@@ -42,3 +42,12 @@ $du -h | sort -h
 $df -h . 
 ```
 
+- Show the port used by which PID(Process Identification)
+    - Example: grep the 3000 port 
+    ```
+    $sudo nestat -lpn| grep 3000
+    ```
+        - If you want to terminate the PID
+        ```
+        $kill <number_of_PID>
+        ```
