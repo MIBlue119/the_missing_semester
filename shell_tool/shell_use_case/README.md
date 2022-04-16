@@ -2,7 +2,10 @@
 
 
 
-- List the 
+- List the files/ directoris numbers 
+```
+$ls | wc -l 
+```
 
 - Export the datetime/uptime/uname info result to a txt file
 ```
@@ -30,3 +33,12 @@ $find . -name "*.py" | grep "mdx"
 ```
 $du -h | sort -h 
 ```
+    - Show the files with specific size
+    ```
+    $du -sh * | sort -n | grep G
+    ```
+- Show the current directory mounted space in human readable format
+```
+$df -h . 
+```
+
